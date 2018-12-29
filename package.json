@@ -1,0 +1,26 @@
+{
+  "name": "react-enzyme-jest",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/narulakeshav/react-enzyme-jest.git",
+  "author": "narulakeshav <narulakeshav13@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest --watchAll"
+  },
+  "dependencies": {
+    "babel-core": "7.0.0-bridge.0",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.1.0",
+    "@babel/plugin-proposal-object-rest-spread": "^7.0.0",
+    "@babel/preset-env": "^7.1.6",
+    "@babel/preset-react": "^7.0.0",
+    "enzyme": "^3.7.0",
+    "enzyme-adapter-react-16": "^1.7.0",
+    "jest": "^23.6.0",
+    "prettier": "^1.15.2"
+  }
+}
